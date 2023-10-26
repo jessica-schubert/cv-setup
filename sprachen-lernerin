@@ -1,45 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jessica Schubert">
     <meta name="description" content="sprache-lernen-webside">
-    <title>Sprache*Lernen</title>
+    <title>Sprache Lernen</title>
 </head>
 
 <body>
     <header>
         <h1> **Sprache*Lernen** </h1>
-        <p>Begeisterte Sprach*Lernerin, angehende Web-Entwicklerin und Wegbeleiterin für Kinder, Jugendliche und alle
-            die es wieder sein wollen</p>
+        <p>Begeisterte Sprach*Lernerin, angehende Web-Entwicklerin
+        </p>
     </header>
     <main>
         <article #profil>
             <div id="Profil"></div>
             <h2> Sprach*Lernerin</h2>
-            <p> Ja, ihr habt richtig gelesen! Ich bin Sprach*Lernerin.
+            <p> Ja, ihr habt richtig gelesen! Ich bin Sprach*Lernerin.<br>
                 Diesen Ausdruck hat meine Tochter im Kindergarten
-                erschaffen und ich bin begeistert davon, denn ich begreife Sprache nicht als Lehrinhalt, sondern als
-                eine natürliche Gabe, die uns Menschen grundsätzlich gegeben ist.
-                Die meisten von uns lernen Sprache so
-                selbstverständlich wie Laufen. Das gilt auch für Sprachen, die wir nicht von klein auf gelernt haben.
-                Fremdsprachen. Da ist es dann eher wie beim Fahrrad fahren lernen, sicher können wir das auch alleine,
-                doch es ist auch ganz gut, wenn erstmal jemand nebenher läuft. Und so verstehe ich mich. Ich begleite
-                und leite an, bis die Sprache von ganz allein gelernt und gesprochen wird.
-
+                erschaffen und ich bin begeistert davon, denn ich begreife <strong>Sprache</strong> nicht als
+                Lehrinhalt, sondern als
+                eine <strong>natürliche Gabe</strong>, die uns Menschen grundsätzlich gegeben ist.
+                Die meisten von uns lernen ihre erste Sprache so selbstverständlich wie Laufen.<br>
+                Das gleiche gilt im Prinzip auch für Sprachen, die wir nicht von klein auf gelernt haben:
+                Fremdsprachen.<br>
+                Da ist es dann eher wie Fahrrad fahren lernen, sicher können wir das auch alleine,
+                doch es ist auch gut, wenn erstmal jemand nebenher läuft. Und so verstehe ich mich.
+                <br>Ich begleite und leite an, bis die Sprache von ganz allein gelernt und gesprochen wird.
+                <br>
                 Komplexer wird die Sache selbstverständlich, wenn das ganze unter einem gewissen Leistungsdruck
-                geschieht.
-                Stichwort Noten in der Schule oder die anstehende Prüfung zum Nachweis eines bestimmten Sprachlevels.
-                Da braucht es dann meist mehr als reine Didaktik und Inhaltsvermittlung. Oftmals geht es dann auch darum
-                die eigene Lernfreude und -motivation wieder zu entdecken.
+                geschieht:
+                Notendruck in der Schule oder anstehende Prüfungen zum Nachweis eines bestimmten Sprachlevels.<br>
+                Da braucht es dann meist mehr als reine Didaktik und Inhaltsvermittlung.<br>
+                <br>Oftmals geht es dann auch darum die eigene Lernfreude und -motivation wieder zu entdecken.
             </p>
         </article>
 
         <article #erfahrungen>
             <div id="Erfahrungen"></div>
             <h2> Meine Erfahrungen </h2>
+
+            <section #berufs-erfahrung>
+                <header>
+                    <h3> Berufserfahrungen </h3>
+                    <p> Schulische Sprachenausbildung (Gymnasium & Fremdspracheninstitut) 1998-2009 <br>
+                        Betriebliche Ausbildung (Groß- und Außenhandel) mit eigener Projektgestaltung/-management
+                        2010-2012<br>
+                        Ausbilderschein 2012<br>
+                        Offener Ganztag Mittelschule (Ehrenamt) 2020-2022<br>
+                        Naturkindergarten (Teilzeit Ergänzungskraft) 2021-2022<br>
+                        Selbstständigkeit Sprache*Lernen 2023
+
+                    </p>
+                    <p>
+                        Angefangen hat meine Sprachlern-Ausbildung mit Deutsch als Muttersprache.
+                        Auf dem Gymnasium folgten dann Englisch, Latein, Italienisch und Spanisch als Grammatiksprachen.
+                        Das Sprache-Sprechen kam mir dort etwas zu kurz, deshalb bin ich nach dem Abitur kurzerhand in
+                        die
+                        Ausbildung zur Fremdsprachenkorrespondentin für Spanisch/Englisch eingestiegen und habe dort
+                        erkannt, dass Lernen mit Mutterspachlern, also die <strong>Sprache hören-sprechen-leben</strong>
+                        eine ganz andere
+                        Qualität hat.
+                        Weshalb ich meine neuen Sprachfähigkeiten auch gleich bei mehreren Aufenthalten in Spanien
+                        verfeinert habe. <br>
+                        Seitdem ist mir endgültig klar geworden, das gesprochene Sprache von der Lebendigkeit lebt, die
+                        wir ihr geben. <br>
+                        Wie ich das meine?
+                    <nav> <a href="#email"> Schreib mir</a></nav> und wir finden Zeit für ein interessantes Gespräch!
+                    </p>
+
+                    <p>
+                        Nach meiner schulischen Ausbildung, wollte ich endlich was "machen" und habe deshalb eine
+                        betriebliche Ausbildung zur Groß- und Außenhandelskauffrau abgeschlossen.
+                        Schon während meiner Ausbildung übernahm ich mein eigenes Vertriebsgebiet und das damit
+                        verbundene Projektmanagement von A bis Z.
+                        Das heißt ich habe sehr viel gesprochen... <br>
+                        Mit potentiellen Kunden, aktuellen Kunden, meinem
+                        Team, bestehend aus Innenarchitekten, Architekten, Lieferanten, Lageristen, Sachbearbeitern,
+                        Buchhaltung...
+                        Sprache ist Kommunikation.<br>
+                        Kommunikation funktioniert nicht ohne Sprache, deshalb ist sie nicht
+                        nur zum Informationsaustausch wichtig, sondern auch elementar für unser
+                        zwischenmenschliches Miteinander.
+                        Kommunikation ist für mich die Basis unseres Menschseins und Sprache (jede Form von Sprache) ist
+                        unsere Basis zum kommunizieren.
+                        Deshalb ist für mich die Fähigkeit eine Sprache hören-sprechen-leben zu lernen, eine
+                        Herzensangelegenheit.
+                        Und: Sprachen sprechen und Kulturen verstehen, geht Hand in Hand.
+
+                    </p>
+            </section>
             <section #sprach-erfahrung>
                 <h3> Lebenserfahrungen </h3>
                 <p>
@@ -48,50 +101,14 @@
                     Ich habe also eigentlich "immer schon" Schüler beim Englisch und Deutsch lernen unterstützt oder
                     beim Lernen lernen an sich.
                     Während meiner Zeit am Gymnasium hatte ich verschiedene Nachhilfeschüler und habe ehrenamtlich in
-                    der Nachmittagsbetreuung attestiert.
-                    Auch als Mutter habe ich mich ehrenamtlich im Offenen Ganztag einer Mittelschule mit vielen
-                    Flüchtlingen engagiert,
-                    während Corona auch in den Notgruppen beim off und online lernen.
-                    Und ich habe ein Jahr in Teilzeit in einem Naturkindergarten gearbeitet.
-                    Immer wieder ist mir bewusst geworden, wie elementar wichtig Sprache und Lernen sind.
-
-
+                    der Nachmittagsbetreuung mitgeholfen.
+                    Auch während meiner Elternzeit, habe ich mich ehrenamtlich im Offenen Ganztag einer Mittelschule mit
+                    vielen Flüchtlingen engagiert, während Corona auch in den Notgruppen beim off und online lernen.
+                    Ebenso habe ich ein Jahr in Teilzeit in einem Naturkindergarten gearbeitet.
+                    Immer wieder ist mir bewusst geworden, wie elementar wichtig Sprache und freudvolles Lernen sind.
                 </p>
             </section>
-            <section #berufs-erfahrung>
-                <h3> Berufserfahrungen </h3>
-                <p>
-                    Angefangen hat meine Sprachlern-Ausbildung mit Deutsch als Muttersprache.
-                    Auf dem Gymnasium folgten dann Englisch, Latein, Italiensch und Spanisch als Grammatiksprachen.
-                    Das Sprache-Sprechen kam mir dort etwas zu kurz, deshalb bin ich nach dem Abitur kurzerhand in die
-                    Ausbildung zur Fremdsprachenkorrespondentin für Spanisch/Englisch am Fremdspracheninstitut
-                    eingestiegen und habe dort
-                    erkannt, dass lernen mit Mutterspachlern, also die Sprache hören-sprechen-leben eine ganz andere
-                    Qualität hat.
-                    Weshalb ich meine neuen Sprachfähigkeiten auch gleich auf Ibiza eingesetzt habe.
-                    Seitdem ist mir endgültig klar geworden, das gesprochene Sprache von der Lebendigkeit lebt, die wir
-                    ihr geben.
-                    Wie ich das meine?
-                <nav> <a href="#email"> Schreib mir</a></nav> und wir finden Zeit für ein interessantes Gespräch! </p>
 
-                <p>
-                    Nach meiner schulischen Ausbildung, wollte ich endlich was "machen" und habe deshalb eine berufliche
-                    Ausbildung zur Groß- und Außenhandelskauffrau abgeschlossen.
-                    Schon während meiner Ausbildung übernahm ich mein eigenes Vertriebsgebiet und das damit verbundene
-                    Projektmanagement von A bis Z.
-                    Das heißt ich habe sehr viel gesprochen... Mit potentiellen Kunden, aktuellen Kunden, meinem Team,
-                    aus Innenarchitekten, Architekten, Lieferanten, Lageristen, Sachbearbeitern, Buchhaltung...
-                    Sprache ist Kommunikation. Kommunikation funktioniert nicht ohne Sprache, deshalb ist sie nicht nur
-                    zum Informationsaustausch wichtig, sondern auch elementar für unser
-                    zwischenmenschliches Miteinander.
-                    Kommunikation ist für mich die Basis unseres Menschseins und Sprache (jede Form von Sprache) ist
-                    unsere Basis zum kommunizieren.
-                    Deshalb ist für mich die Fähigkeit eine Sprache hören-sprechen-leben zu lernen, eine
-                    Herzensangelegenheit.
-                    Und: Sprachen sprechen und Kulturen verstehen, geht Hand in Hand.
-
-                </p>
-            </section>
         </article>
 
         <article #fähigkeiten>
@@ -102,30 +119,34 @@
                 Lernen erfordert Interesse, Neugierde, Offenheit und Geduld. Und Methode.
                 Wir alle haben verschiedene Methoden entwickelt, wie unser Gehirn am besten Informationen aufnimmt und
                 verarbeitet.
-                Heute werden wir in Lerntypen unterteilt. Es gibt methodische Ansätze zum Lernen lernen, welche sehr
-                hilfreich sein können.
+                Heute werden wir in Lerntypen unterteilt.<br>
+                Es gibt methodische Ansätze zum Lernen lernen, welche sehr
+                hilfreich sein können.<br>
                 Letztlich lernt jedes Gehirn auf seine ganz eigene individuelle Weise.
-                Das ist ein Teil meiner Arbeit: Ich lerne wie mein Gegenüber lernt und gemeinsam lernen wir dann die
-                jeweils ganz individuelle Art zu lernen.
+                Das ist ein großer Teil meines Tuns: <blockquote>Ich lerne wie ihr lernt und gemeinsam finden wir euren
+                    ganz
+                    individuellen Weg zu Lernen.</blockquote>
 
             </section>
 
             <section #Fähigkeit2>
                 <h3> Kommunizieren</h3>
-                Ja, ich spreche verschiedene Sprachen. Miteinander sprechen - kommunizieren ist viel mehr als das.
-                Kommunizieren bedeutet: "Ich lerne Deine Sprache - Du lernst Meine Sprache - Gemeinsam entwicklen wir
-                unsere gemeinsame Sprache!"
-                Ihr wisst worauf ich hinaus will! Gegenseitiges Verstehen.
+                Ja, ich spreche verschiedene Sprachen.<br>
+                Miteinander sprechen - kommunizieren ist viel mehr als das.<br>
+                Kommunizieren bedeutet: <q>Ich lerne Deine Sprache - Du lernst Meine Sprache - Gemeinsam entwickeln wir
+                    unsere gemeinsame Sprache!</q> <br>
+                Ihr wisst worauf ich hinaus will:<br>
+                Feingefühl, Verständnis, Respekt und lebendiger Austausch.
 
             </section #>
         </article>
 
-        <article #contact>
-            <h2> Miteinander kontakten</h2>
+        <address>
+            <h2> Miteinander</h2>
             <div id="contact"></div>
-            Jessica Schubert
+            Jessica Schubert<br>
             jessica8schubert@gmail.com
-        </article>
+        </address>
 
     </main>
 
