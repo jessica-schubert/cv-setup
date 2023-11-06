@@ -1,7 +1,70 @@
-*{box-sizing: border-box;}
-body {margin 0px;}
-html {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1, h2, h3 {font-family: fantasy;}
-.header {padding: 30px; text-align: center; background-color:crimson;}
-.document-title { }
-.main {padding: 30px}
+/* General Stylings*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fantasy;
+}
+
+/* Specific Stylings */
+
+.header {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: crimson;
+}
+
+.main {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main > * + * {
+  margin-top: 48px;
+}
+
+.main > * {
+  border-top: 2px solid greenyellow;
+}
+
+.main > *:first-child {
+  border-top: none;
+}
+
+/* Navigation Styling*/
+
+nav a {
+  background-color: bisque;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.nav {
+  background-color: black;
+  border-radius: px;
+}
+a:link {
+  color: indigo;
+}
+a:visited {
+  color: lightblue;
+}
+a:hover {
+  background-color: blue;
+  color: hotpink;
+}
+a:active {
+  background-color: aqua;
+}
