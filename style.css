@@ -1,0 +1,7 @@
+*{box-sizing: border-box;}
+body {margin 0px;}
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1, h2, h3 {font-family: fantasy;}
+.header {padding: 30px; text-align: center; background-color:crimson;}
+.document-title { }
+.main {padding: 30px}
