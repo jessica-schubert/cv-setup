@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jessica Schubert">
     <meta name="description" content="CV von Jessica Schubert">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="body">
     <header class="header">
-        <h1> Jessica Schubert </h1>
+        <h1 class="h1"> Jessica Schubert </h1>
         <nav class="nav">
             <a href="#profile">Profil</a>
             <a href="#experience">Experience</a>
@@ -20,10 +21,11 @@
         </nav>
         <p class="profession"> Going-to-be Web-Developer
         </p>
+        <aside class="badge-hire-me">Hire Me</aside>
     </header>
     <main class="main">
         <article id="profile">
-            <h2> Profil</h2>
+            <h2 class="main-heading">Profile</h2>
             <p> Hello, my name is Jessica. I am 36 years old and already did <i>curly</i> stuff until now: <br>
                 After grammar school, I went to a foreign language institute, then I did an apprenticeship in
                 wholesale
@@ -32,48 +34,51 @@
                 middle
                 school and in a nature kindergarten.<br>
                 I am self-employed part-time and appreciate to guide people in learning languages.<br>
-                Now I am at Coding Bootcamp Europe and learn to code!
+                Now I am at Coding Bootcamp Europe and learn to code!<br>
+                <br>
+                <a href="mailto: jessica8schubert@gmail.com"> Schreib mir</a> und wir finden Zeit für ein
+                interessantes Gespräch!
 
         </article>
 
         <article id="experience">
-            <h2> Experience </h2>
+            <h2 class="main-heading"> Experience </h2>
 
-            <section #job-experience>
-                <h3> Berufserfahrungen </h3>
-                <p> Schulische Sprachenausbildung (Gymnasium & Fremdspracheninstitut) 1998-2009 <br>
-                    Betriebliche Ausbildung (Groß- und Außenhandel) mit eigener Projektgestaltung/-management
-                    2010-2012<br>
-                    Ausbilderschein 2012<br>
-                    Offener Ganztag Mittelschule (Ehrenamt) 2020-2022<br>
-                    Naturkindergarten (Teilzeit Ergänzungskraft) 2021-2022<br>
-                    Selbstständigkeit Sprache*Lernen 2023
-
-                </p>
-                <p>
-                    Fill me
-                    <a href="mailto: jessica8schubert@gmail.com"> Schreib mir</a> und wir finden Zeit für ein
-                    interessantes Gespräch!
-                </p>
-
-                <p>
-                </p>
+            <section>
+                <header>
+                    <h3 class="experience-heading">
+                        Coding Bootcamp Europe
+                    </h3>
+                    <p class="experience-subheading">
+                        September 2023 - Juli 2024
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odio, aut modi quis
+                        delectus nostrum sequi maiores consectetur molestias ut aperiam quasi magni qui expedita
+                        consequatur suscipit tempore vero aliquam!
+                    </p>
             </section>
-            <section #experience2>
-                <h3> Erfahrungen 2 </h3>
+            <section>
+                <header>
+                    <h3 class="experience-heading"> Self-Studying with CodeAcademy and mimoApp </h3>
+                    <p class="experience-subheading"> May 2023 - September 2023
+                    </p>
+                </header>
                 <p>
-                    Fill me
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aliquid adipisci blanditiis nihil
+                    earum, enim officiis non expedita obcaecati ipsa eaque. Sint voluptatem doloremque recusandae, nihil
+                    animi similique totam at!
                 </p>
             </section>
 
         </article>
 
         <article id="skills">
-            <h2> Some of my skills </h2>
+            <h2 class="main-heading"> Some of my skills </h2>
             <section #soft-skills>
                 <h3> Softskills</h3>
                 <ul>
-                    <li>constructive, empathic communication</li>
+                    <li>constructive, empathetic communication</li>
                     <li>connecting people</li>
                     <li>inventing ideas and solutions "out of the box"</li>
                 </ul>
@@ -83,7 +88,7 @@
             <section #tecnial-skills>
                 <h3> Tecnical Skills</h3>
                 <ul>
-                    <li>html basics</li>
+                    <li>html and css basics</li>
                     <li>use terminal, git</li>
                     <li>word, excell</li>
                 </ul>
@@ -92,7 +97,7 @@
         </article>
 
         <address class="address" class="main-child">
-            <h2>Contact</h2>
+            <h2 class="main-heading">Contact</h2>
             <ol>
                 <li> <a href="mailto:jessica8schubert@gmail.com">Email</a> </li>
                 <li>facebook</li>
