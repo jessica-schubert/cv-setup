@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0px;
-  background-color: bisque;
+  margin: 0;
+  background-color: rgb(249, 237, 223);
 }
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 h1,
 h2,
@@ -29,38 +30,25 @@ h6 {
 /* Header Styling */
 
 .header {
-  padding: 48px 16px;
-  _padding-top: 72px;
+  padding: 3rem 1rem;
+  _padding-top: 4.5rem;
   text-align: center;
   background-color: crimson;
   position: relative;
 }
 
-h1 {
-  font-size: 65px;
+.heading-group {
+  font-size: 4rem;
 }
 
-.badge-hire-me {
-  background-color: greenyellow;
-  color: rgb(1, 86, 1);
-  _font-family: fantasy;
-  font-family: "Courier New", Courier, monospace;
-  _font-style: bold;
-  font-size: 30px;
-
-  _padding: 8px 8px 2px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
+.h1-heading {
+  font-size: 1em;
 }
 
 .profession {
   font-family: fantasy;
-  font-size: 25px;
-  margin-top: 40px;
+  font-size: 0.35em;
+  margin-top: 0.5em;
 }
 
 .profession::before {
@@ -70,48 +58,69 @@ h1 {
   content: "👩🏽‍💻";
 }
 
+.badge-hire-me {
+  background-color: greenyellow;
+  color: rgb(1, 86, 1);
+  border: 0.1rem solid rgb(1, 86, 1);
+  _font-family: fantasy;
+  font-family: "Courier New", Courier, monospace;
+  _font-style: bold;
+  font-size: 1.75rem;
+
+  _padding: 0.75rem 0.75rem 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* Navigation Styling*/
 
 nav a {
-  background-color: bisque;
-  padding: 8px 15px;
-  margin: 30px;
-  border-radius: 50px;
+  background-color: rgb(249, 237, 223);
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  border-radius: 2.5rem;
   font-family: fantasy;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: bold;
 }
 .nav {
   background-color: black;
-  border-radius: px;
+  border-radius: rem;
 }
 a:link {
   color: indigo;
 }
 a:visited {
   color: lightblue;
+  _color: yellowgreen;
 }
 a:hover {
   background-color: blue;
   color: hotpink;
 }
 a:active {
-  background-color: aqua;
+  _background-color: aqua;
+  background-color: yellowgreen;
 }
 /******************************************************/
 
 /* Heading Stylings */
 
 h2 {
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
 /* Main Stylings */
 
 .main {
-  padding: 16px;
-  max-width: 800px;
+  padding: 1rem;
+  max-width: 55ch;
   margin: 0 auto;
+  c
 }
 /*##############################################*/
 /* Das verstehe ich noch nicht richtig!!!! */
@@ -124,12 +133,12 @@ h2 {
 }
 
 .main > * + * {
-  margin-top: 48px;
+  margin-top: 2.5rem;
 }
 
 .main > * {
-  border-top: 2px solid greenyellow;
-  _padding: 0 16px;
+  border-top: 0.1rem solid greenyellow;
+  _padding: 0 1rem;
 }
 
 .main > *:first-child {
@@ -140,5 +149,10 @@ h2 {
 
 .main-heading {
   position: relative;
-  left: -12px;
+  left: -0.5rem;
+}
+
+.main-article {
+  _padding-left: 2.5rem;
+  _padding-right: 2.5rem;
 }
