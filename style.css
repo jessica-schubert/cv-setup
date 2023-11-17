@@ -25,6 +25,8 @@ h6 {
   color: ;
 }
 
+
+
 /**** Specific Stylings ++++++++++++++++++++++++****/
 
 /* Header Styling */
@@ -62,9 +64,7 @@ h6 {
   background-color: greenyellow;
   color: rgb(1, 86, 1);
   border: 0.1rem solid rgb(1, 86, 1);
-  _font-family: fantasy;
   font-family: "Courier New", Courier, monospace;
-  _font-style: bold;
   font-size: 1.75rem;
 
   _padding: 0.75rem 0.75rem 0.5rem;
@@ -103,7 +103,6 @@ a:hover {
   color: hotpink;
 }
 a:active {
-  _background-color: aqua;
   background-color: yellowgreen;
 }
 /******************************************************/
@@ -138,7 +137,6 @@ h2 {
 
 .main > * {
   border-top: 0.1rem solid greenyellow;
-  _padding: 0 1rem;
 }
 
 .main > *:first-child {
@@ -155,4 +153,47 @@ h2 {
 .main-article {
   _padding-left: 2.5rem;
   _padding-right: 2.5rem;
+}
+
+/*** Media queries ***/
+
+.main {display:block;}
+
+/*breakpoint medium */
+@media screen and (min-width:786px) {
+  html {
+  font-size: 22px;
+}
+.main > * + * {
+  margin-top: 3.5rem;
+}
+}
+
+/* breakpoint large */
+@media screen and (min-width: 992px) {
+  html {
+  font-size: 25px;}
+  
+  /* Funktioniert die position: fixed; ?! */
+  aside {
+    background-color: greenyellow;
+    color: rgb(1, 86, 1);
+    border: 0.1rem solid rgb(1, 86, 1);
+
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.75rem;
+  
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 7rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+  }
+  }
+
+@media print{
+  .badge-hire-me {display: none;}
+  nav {display: none;}
 }
