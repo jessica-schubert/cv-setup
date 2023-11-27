@@ -21,7 +21,7 @@ h6 {
 }
 
 ::selection {
-  background-color: ;
+  background-color: plum;
   color: ;
 }
 
@@ -87,10 +87,8 @@ nav a {
   font-size: 1rem;
   font-weight: bold;
 }
-.nav {
-  background-color: black;
-  border-radius: rem;
-}
+
+
 a:link {
   color: indigo;
 }
@@ -105,6 +103,23 @@ a:hover {
 a:active {
   background-color: yellowgreen;
 }
+
+.nav {
+  background-color: black;
+  _border-radius: rem;}
+
+  .nav { display: flex;
+    flex-direction: row;
+    align-items: flex-start;}
+  }
+
+  @media screen and (min-width:786px) { .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+  }
+
 /******************************************************/
 
 /* Heading Stylings */
@@ -112,6 +127,7 @@ a:active {
 h2 {
   font-size: 1.5rem;
 }
+
 
 /* Main Stylings */
 
@@ -126,9 +142,19 @@ h2 {
 
 .experience-heading {
   display: inline-block;
+
 }
-.experience-subheading {
-  display: inline-block;
+
+.experience-heading {
+  display: flex;
+  flex-direction: column;
+
+  @media screen {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
 }
 
 .main > * + * {
